@@ -100,3 +100,31 @@ button.ghost{
   .actions,.ghost,.footnote{display:none}
   input,textarea{color:#000;background:#fff}
 }
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .card, .hero {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+  }
+
+  input, textarea {
+    background: white !important;
+    color: black !important;
+    border: 1px solid #000;
+  }
+
+  .hero-badge {
+    background: #ccc !important;
+    color: black !important;
+  }
+
+  button {
+    display: none;
+  }
+} 
