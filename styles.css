@@ -93,6 +93,7 @@ button.ghost{
 @media (max-width:600px){
   .grid.two{grid-template-columns:1fr}
   .hero h1{font-size:1.45rem}
+
 }@media print {
   * {
     background: white !important;
