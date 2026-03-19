@@ -94,7 +94,7 @@ button.ghost{
   .grid.two{grid-template-columns:1fr}
   .hero h1{font-size:1.45rem}
 
-}@media print {
+@media print {
   * {
     background: white !important;
     color: black !important;
