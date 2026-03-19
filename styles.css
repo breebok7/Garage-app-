@@ -183,3 +183,19 @@ button.ghost{
     display: none !important;
   }
 }
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+
+.logo {
+  width: 40px !important;
+}
