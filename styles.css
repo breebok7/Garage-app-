@@ -199,3 +199,22 @@ button.ghost{
 .logo {
   width: 40px !important;
 }
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 55px !important;
+  height: auto !important;
+  max-width: 55px !important;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  margin: 0;
+}
