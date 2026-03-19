@@ -129,3 +129,57 @@ button.ghost{
     display: none !important;
   }
 }
+
+@media print {
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+  }
+
+  /* Cartes */
+  .card, .hero {
+    background: white !important;
+    border: 1px solid #ccc !important;
+    border-radius: 12px !important;
+  }
+
+  /* TITRES */
+  h1, h2, h3, span, label {
+    color: black !important;
+  }
+
+  /* INPUTS */
+  input, textarea {
+    background: white !important;
+    color: black !important;
+    border: 1px solid #000 !important;
+    -webkit-text-fill-color: black !important;
+  }
+
+  /* CHECKLIST STYLE COMME TA FEUILLE */
+  .row {
+    background: #e5e5e5 !important;
+    border-radius: 20px !important;
+    border: none !important;
+    padding: 12px !important;
+  }
+
+  .table-head {
+    background: transparent !important;
+    font-weight: bold;
+  }
+
+  /* CACHER BOUTONS */
+  .actions,
+  button,
+  .ghost,
+  .footnote {
+    display: none !important;
+  }
+}
